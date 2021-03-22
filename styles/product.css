@@ -1,0 +1,37 @@
+
+.main__product {
+    padding: 5px 30px;
+}
+.product {
+    display: flex;
+    padding: 30px;
+}
+#product--title {
+    font-size: 26px;
+}
+#product--description {
+    margin: 20px 0;
+    font-size: 18px;
+}
+#product__lenses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#product__lenses p{
+    font-size: 18px;
+}
+#product__lenses .lense__container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#product--img {
+    width: 60%;
+}
+#product--price{
+    font-size: 22px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+ 

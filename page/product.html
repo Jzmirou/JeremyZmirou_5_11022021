@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit - Orinoco</title>
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/product.css">
+    <script src="https://kit.fontawesome.com/c8e73adcc3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="" class="header--logo">
+        </a>
+        <a href='./panier.html' class="header__panier">
+            <i class="fas fa-shopping-basket"></i>
+            <div id="header__panier--badge">2</div>
+        </a>
+    </header>
+    <main class='product'>      
+        <img id='product--img' src="" alt="">
+        <section class="main__product">
+            <h1 id='product--title'></h1>
+            <p id='product--description'></p>
+            
+            <div id="product__lenses">
+              <p>Choisissez votre lentille :</p>  
+
+            </div>
+            <p id="product--price"></p>
+            <input type="submit" class='btn' id='product--button' value="Ajoutez au panier">
+        </section>
+    </main>
+    <script type="module" src="../js/product.js"></script>
+</body>
+
+</html>
