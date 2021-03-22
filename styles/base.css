@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap');
+/*----RESET----*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, button, input, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    outline: none;
+    vertical-align: baseline;
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3e9f1;
+    padding: 5px 10px;
+}
+
+.header--logo {
+    height: 100px;
+}
+
+.header__panier {
+    position: relative;
+    margin-right: 10px;
+}
+
+.header__panier i {
+    font-size: 34px;
+}
+
+#header__panier--badge {
+    position: absolute;
+    background-color: #e24949;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: -5px;
+    left: -5px;
+    visibility: hidden;
+}
+
+.btn {
+    
+    background: linear-gradient(150deg, rgba(230, 138, 9, 1) 0%, rgba(143, 91, 254, 1) 70%);
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    filter: brightness(1.6);
+}
+
+.btn:active {
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.288);
+}
