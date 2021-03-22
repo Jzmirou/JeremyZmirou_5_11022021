@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier - Orinoco</title>
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/panier.css">
+
+    <script src="https://kit.fontawesome.com/c8e73adcc3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="" class="header--logo">
+        </a>
+        <a href='./panier.html' class="header__panier">
+            <i class="fas fa-shopping-basket"></i>
+            <div id="header__panier--badge"></div>
+        </a>
+    </header>
+    <main>
+        <div id="panier">
+            <h1 class='panier--title'>Panier</h1>
+            <div id="panier__cards">
+
+            </div>
+            <div id="panier__price">
+                Prix Total:
+                <p id="panier__priceTotal"></p>
+            </div>
+
+            <input type="button" id='panier--button' class="btn" value="Confirmer le panier">
+        </div>
+        <div class="form">
+            <form id="form__confirm">
+                <div class="form__inputContainer">
+                    <label class='form--label' for="firstName">Prénom: </label>
+                    <input type="text" class='form--input' name="firstName" id="firstName">
+                    <small></small>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form__inputContainer">
+                    <label class='form--label' for="lastName">Nom: </label>
+                    <input type="text" class='form--input' name="lastName" id="lastName">
+                    <small>Error</small>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form__inputContainer">
+                    <label class='form--label' for="adresse">Adresse:</label>
+                    <input type="text" class='form--input' name="adresse" id="adresse">
+                    <small>Error</small>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form__inputContainer">
+                    <label class='form--label' for="city">City: </label>
+                    <input type="text" class='form--input' name="city" id="city">
+                    <small>Error</small>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="form__inputContainer">
+                    <label class='form--label' for="email">Email: </label>
+                    <input type="text" class='form--input' name="email" id="email">
+                    <small>Error</small>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <input id="form--button" class='btn' type="submit" value="Confirmez la commande">
+        </div>
+        </form>
+
+        </div>
+
+
+    </main>
+    <script type='module' src="../js/panierDOM.js"></script>
+</body>
+
+</html>
