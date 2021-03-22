@@ -1,0 +1,24 @@
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    padding: 50px ;
+    margin: 20px;
+
+}
+.order h1 {
+    font-size: 24px;
+    margin: 15px;
+}
+.order h1 span {
+    font-weight: 600;
+}
+.order p {
+    font-size: 20px;
+}
+.order p span {
+    font-weight: 600;
+}
