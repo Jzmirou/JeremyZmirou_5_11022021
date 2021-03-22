@@ -1,0 +1,18 @@
+
+
+POST http://localhost:3000/api/cameras/order HTTP/1.1
+Content-Type: application/json
+
+{
+    "contact": {
+        "firstName": "Wed",
+        "lastName": "sample",
+        "address" : "22 rue guenot",
+        "city" : "Paris",
+        "email" : "guyty@gmail.com"
+    },
+    "products" : ["5be1ed3f1c9d44000030b061","5be1ed3f1c9d44000030b061"]
+      
+}
+
+//GET http://localhost:3000/api/cameras/5be1ed3f1c9d44000030b061
